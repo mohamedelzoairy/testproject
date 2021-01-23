@@ -1,13 +1,13 @@
 version: "3"
 services:
 
-  node-js-1:
+  maven1:
     build: ./App-1
     ports:
       - "7766:7777"
     container_name: app-1
   
-  node-js-2:
+  maven2:
     build: ./App-2
     ports:
        - "8866:8888"
