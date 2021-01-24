@@ -4,13 +4,13 @@ services:
   maven1:
     build: ./App-1
     ports:
-      - "7766:8080"
+      - "8080:7766"
     container_name: app-1
   
   maven2:
     build: ./App-2
     ports:
-       - "8866:8080"
+       - "8080:8866"
     container_name: app-2
 
   nginx:
